@@ -120,8 +120,8 @@
         "imageReference": {
           "publisher": "MicrosoftWindowsServer",
           "offer": "WindowsServer",
-          "sku": "2022-datacenter",
-          "version": "latest"
+          "sku": "2019-datacenter",
+          "version": "17763.3131.220505"
         }
       },
       "DPMP": {
@@ -131,8 +131,8 @@
         "imageReference": {
           "publisher": "MicrosoftWindowsServer",
           "offer": "WindowsServer",
-          "sku": "2022-datacenter",
-          "version": "latest"
+          "sku": "2019-datacenter",
+          "version": "17763.3131.220505"
         }
       }
     },
