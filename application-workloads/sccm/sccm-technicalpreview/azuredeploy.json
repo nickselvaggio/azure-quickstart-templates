@@ -107,7 +107,7 @@
           "publisher": "MicrosoftWindowsServer",
           "offer": "WindowsServer",
           "sku": "2022-Datacenter",
-          "version": "latest"
+          "version": "20348.707.220505"
         }
       },
       "DPMP": {
@@ -117,8 +117,8 @@
         "imageReference": {
           "publisher": "MicrosoftWindowsServer",
           "offer": "WindowsServer",
-          "sku": "2019-Datacenter",
-          "version": "latest"
+          "sku": "2022-datacenter",
+          "version": "20348.707.220505"
         }
       }
     },    
@@ -138,7 +138,7 @@
       {          
           "name": "clientInfo",
           "count": "[parameters('ClientsCount')]", 
-          "input": "[json(concat('{\"Client',copyIndex('clientInfo',1),'\":{\"name\": \"Cl0',copyIndex('clientInfo',1),'\",\"disktype\": \"Premium_LRS\",\"size\": \"',parameters('vmSize'),'\",\"imageReference\": {\"publisher\": \"MicrosoftWindowsDesktop\",\"offer\": \"Windows-10\",\"sku\": \"21h1-ent\",\"version\": \"latest\"}}}'))]"  
+          "input": "[json(concat('{\"Client',copyIndex('clientInfo',1),'\":{\"name\": \"Cl0',copyIndex('clientInfo',1),'\",\"disktype\": \"Premium_LRS\",\"size\": \"',parameters('vmSize'),'\",\"imageReference\": {\"publisher\": \"MicrosoftWindowsDesktop\",\"offer\": \"Windows-10\",\"sku\": \"21h1-ent\",\"version\": \"19043.1706.220505\"}}}'))]"  
       }
     ],    
     "siterole": [
@@ -153,7 +153,7 @@
           "publisher": "MicrosoftSQLServer",
           "offer": "SQL2019-WS2019",
           "sku": "Standard",
-          "version": "latest"
+          "version": "15.0.220607"
         }
       }
     }
